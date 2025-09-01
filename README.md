@@ -6,6 +6,9 @@ Intune deployment scripts for fixing the Windows Hello PIN bug that Microsoft in
 
 Microsoft introduced a bug in the 2025-06 Cumulative Update for Windows 11 24H2 that affects Windows Hello PIN functionality. This repository provides PowerShell scripts that can be deployed through Microsoft Intune to fix the issue by setting the appropriate Windows Hello for Business policy values in the Windows registry.
 
+Error message:
+`0x80090010 NTE_PERM`
+
 ## Repository Contents
 
 This repository contains three PowerShell scripts designed for Intune deployment:
