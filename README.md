@@ -1,10 +1,10 @@
 # Windows Hello PIN Fix
 
-Intune deployment scripts for fixing the Windows Hello PIN bug that Microsoft introduced in the 2025-06 Cumulative Update for Windows 11 23H2.
+Intune deployment scripts for fixing the Windows Hello PIN bug that Microsoft introduced in the 2025-06 Cumulative Update for Windows 11 24H2.
 
 ## Background
 
-Microsoft introduced a bug in the 2025-06 Cumulative Update for Windows 11 23H2 that affects Windows Hello PIN functionality. This repository provides PowerShell scripts that can be deployed through Microsoft Intune to fix the issue by setting the appropriate Windows Hello for Business policy values in the Windows registry.
+Microsoft introduced a bug in the 2025-06 Cumulative Update for Windows 11 24H2 that affects Windows Hello PIN functionality. This repository provides PowerShell scripts that can be deployed through Microsoft Intune to fix the issue by setting the appropriate Windows Hello for Business policy values in the Windows registry.
 
 ## Repository Contents
 
