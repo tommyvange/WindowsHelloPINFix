@@ -10,7 +10,7 @@ Microsoft introduced a bug in the 2025-06 Cumulative Update for Windows 11 23H2 
 
 This repository contains three PowerShell scripts designed for Intune deployment:
 
-### 📜 Scripts Overview
+### Scripts Overview
 
 | Script | Purpose | Exit Codes |
 |--------|---------|------------|
@@ -18,7 +18,7 @@ This repository contains three PowerShell scripts designed for Intune deployment
 | `uninstall.ps1` | Removes Windows Hello for Business policy values | 0 = Success, 1 = Failure |
 | `check.ps1` | Validates compliance of policy values | 0 = Compliant, 1 = Non-compliant |
 
-### 🔧 install.ps1
+### install.ps1
 
 **Purpose**: Ensures Windows Hello for Business (PassportForWork) policy values are correctly set.
 
@@ -32,7 +32,7 @@ This repository contains three PowerShell scripts designed for Intune deployment
 
 **Registry Path**: `HKLM:\SOFTWARE\Policies\Microsoft\PassportForWork`
 
-### 🗑️ uninstall.ps1
+### uninstall.ps1
 
 **Purpose**: Intelligently removes the Windows Hello for Business policy values.
 
@@ -44,7 +44,7 @@ This repository contains three PowerShell scripts designed for Intune deployment
 - Automatically handles 32-bit/64-bit PowerShell context switching
 - Uses both PowerShell and .NET registry APIs for reliable operation
 
-### ✅ check.ps1
+### check.ps1
 
 **Purpose**: Validates that the Windows Hello for Business policy is correctly configured.
 
@@ -74,7 +74,7 @@ Follow these steps to create an Intune application for deploying this fix:
 
 1. In Microsoft Intune admin center, go to **Apps** > **All apps**
 2. Click **Add** > **Windows app (Win32)**
-3. Compile your own .intunewin file containing the install.ps1 and uninstall.ps1 or use the one provided under releases (extract the .ZIP file).
+3. Compile your own .intunewin file containing the install.ps1 and uninstall.ps1 or use the one [provided under releases (extract the .ZIP file)](/releases/latest/download/intunewin.zip).
 
 ### 2. Program Configuration
 
