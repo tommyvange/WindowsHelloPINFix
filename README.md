@@ -74,7 +74,7 @@ Follow these steps to create an Intune application for deploying this fix:
 
 1. In Microsoft Intune admin center, go to **Apps** > **All apps**
 2. Click **Add** > **Windows app (Win32)**
-3. Upload a ZIP file containing all three PowerShell scripts
+3. Compile your own .intunewin file containing the install.ps1 and uninstall.ps1 or use the one provided under releases (extract the .ZIP file).
 
 ### 2. Program Configuration
 
